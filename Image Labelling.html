@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alphabet Chart</title>
+</head>
+<body>
+  <h1>Alphabet Chart</h1>
+  <img src="engalpha.jpg" alt="Alphabet Chart" height="1000" width="1000" usemap="#alphabetmap">
+
+  <map name="alphabetmap">
+    <!-- A -->
+    <area shape="rect" coords="40,40,190,190" alt="A" title="A for Apple" href="#" onclick="displayExample('apple.jpeg')">
+    <!-- B -->
+    <area shape="rect" coords="240,40,390,190" alt="B"title="B for Ball" href="#" onclick="displayExample('ball.jpeg')">
+    <!-- C -->
+    <area shape="rect" coords="440,40,590,190" alt="C"title="C for Cup" href="#" onclick="displayExample('cup.jpg')">
+    <!-- D -->
+    <area shape="rect" coords="640,40,790,190" alt="D"title="D for dog" href="#" onclick="displayExample('dog.jpg')">
+    <!-- E -->
+    <area shape="rect" coords="840,40,990,190" alt="E" title="E for elephant" href="#" onclick="displayExample('elephant.jpg')">
+    <!-- F -->
+    <area shape="rect" coords="40,260,190,410" alt="F" title="F for fish" href="#" onclick="displayExample('fish.jpeg')">
+    <!-- G -->
+    <area shape="rect" coords="240,260,390,410" alt="G" title="G for giraffe" href="#" onclick="displayExample('giraffe.jpeg')">
+    <!-- H -->
+    <area shape="rect" coords="440,260,590,410" alt="H"title="H for Horse" href="#" onclick="displayExample('horse.jpg')">
+    <!-- I -->
+    <area shape="rect" coords="640,260,790,410" alt="I"title="I for Ice Cream" href="#" onclick="displayExample('ice_cream.jpg')">
+    <!-- J -->
+    <area shape="rect" coords="840,260,990,410" alt="J"title="J for jacket" href="#" onclick="displayExample('jacket.jpg')">
+    <!-- K -->
+    <area shape="rect" coords="40,480,190,630" alt="K"title="K for kangaroo" href="#" onclick="displayExample('kangaroo.jpg')">
+    <!-- L -->
+    <area shape="rect" coords="240,480,390,630" alt="L"title="L for Lion" href="#" onclick="displayExample('lion.jpg')">
+    <!-- M -->
+    <area shape="rect" coords="440,480,590,630" alt="M"title="M for money" href="#" onclick="displayExample('monkey.jpg')">
+    <!-- N -->
+    <area shape="rect" coords="640,480,790,630" alt="N"title="N for nest" href="#" onclick="displayExample('nest.jpg')">
+    <!-- O -->
+    <area shape="rect" coords="840,480,990,630" alt="O"title="O for Owl" href="#" onclick="displayExample('owl.jpg')">
+    <!-- P -->
+    <area shape="rect" coords="40,700,190,850" alt="P"title="P for Panda" href="#" onclick="displayExample('penguin.jpg')">
+    <!-- Q -->
+    <area shape="rect" coords="240,700,390,850" alt="Q"title="Q for Queen" href="#" onclick="displayExample('queen.jpg')">
+    <!-- R -->
+    <area shape="rect" coords="440,700,590,850" alt="R"title="R for rabbit" href="#" onclick="displayExample('rabbit.jpg')">
+    <!-- S -->
+    <area shape="rect" coords="640,700,790,850" alt="S"title="S for sun" href="#" onclick="displayExample('sun.jpg')">
+    <!-- T -->
+    <area shape="rect" coords="840,700,990,850" alt="T"title="T for Tiger" href="#" onclick="displayExample('tiger.jpg')">
+    <!-- U -->
+    <area shape="rect" coords="40,920,190,1070" alt="U"title="U for umbrella" href="#" onclick="displayExample('umbrella.jpg')">
+    <!-- V -->
+    <area shape="rect" coords="240,920,390,1070" alt="V"title="V for violin" href="#" onclick="displayExample('violin.jpg')">
+    <!-- W -->
+    <area shape="rect" coords="440,920,590,1070" alt="W"title="W for whale" href="#" onclick="displayExample('whale.jpg')">
+    <!-- X -->
+    <area shape="rect" coords="640,920,790,1070" alt="X" title="X for xylophone" href="#" onclick="displayExample('xylophone.jpg')">
+    <!-- Y -->
+    <area shape="rect" coords="840,920,990,1070" alt="Y" title="Y for Yacht" href="#" onclick="displayExample('yacht.jpg')">
+    <!-- Z -->
+    <area shape="rect" coords="40,1140,190,1290" alt="Z" title="Z for Zebra" href="#" onclick="displayExample('zebra.jpg')">
+  </map>
+
+  <script>
+    function displayExample(imageUrl) {
+      var exampleDiv = document.getElementById('example');
+      exampleDiv.innerHTML = "<img src='" + imageUrl + "'>";
+    }
+  </script>
+
+  <div id="example"></div>
+</body>
+</html>
